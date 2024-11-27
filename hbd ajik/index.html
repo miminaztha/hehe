@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Ulang Tahun Hadziq</title>
+  <style>
+    body {
+      background-color: #000; /* Tema hacking */
+      color: #00ff00; /* Warna teks neon hijau */
+      font-family: "Courier New", Courier, monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, p {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      border: 2px dashed #00ff00;
+      border-radius: 10px;
+    }
+
+    .btn-play {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 18px;
+      color: #000;
+      background: #00ff00;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn-play:hover {
+      background: #009900;
+    }
+
+    .world-war {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .war-image {
+      width: 100px;
+      margin: 10px;
+      border: 2px solid #00ff00;
+      border-radius: 5px;
+      filter: grayscale(100%);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>H4ppy B1rthd4y, Sulth4n H4dziq!</h1>
+    <h2>14 Tahun di Dunia: Siap untuk Level Berikutnya?</h2>
+    <p>
+      Selamat ulang tahun, komandan! Semoga perjalanan hidupmu selalu penuh strategi hebat,
+      seperti jenderal terbaik di Perang Dunia II, dan dirancang dengan presisi seperti hacker andal.
+    </p>
+    <button class="btn-play" onclick="playSong()">🎵 Play Hacking Anthem</button>
+    <div class="world-war">
+      <img src="download (1).jpg" class="war-image" alt="World War II">
+      <img src="download.jpg" class="war-image" alt="Enigma Machine">
+
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2024 - Birthday Greeting by Aztha
+  </footer>
+
+  <audio id="birthdaySong" src="yt1s.com - Erika  Germany Soldiers Songs with lyrics.mp3"></audio>
+
+  <script>
+    function playSong() {
+      const song = document.getElementById('birthdaySong');
+      if (song.paused) {
+        song.play();
+        alert("🎧 Lagu dimulai! Nikmati momentnya, Komandan Hadziq!");
+      
+      }
+    }
+  </script>
+</body>
+</html>
